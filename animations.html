@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        @keyframes myanimation {
+
+            /****************** To give to we use this form and to ******************/
+            /* from {
+                background-color: aqua;
+                border: 1px solid red;
+                transform: rotate(10deg);
+            }
+
+            to {
+                background-color: red;
+                border: 1px solid gray;
+                transform: rotate(30deg);
+            } */
+
+            /************ We give multiple we use this type of percentages ************/
+            10% {
+                background-color: aqua;
+                margin-left: 200px;
+            }
+
+            20% {
+                background-color: green;
+                margin-left: 40px;
+            }
+
+            30% {
+                background-color: aqua;
+                margin-top: 30px;
+            }
+
+            40% {
+                background-color: yellow;
+                margin-right: 100px;
+            }
+        }
+
+        .container {
+            height: 100px;
+            width: 50px;
+            margin-left: 500px;
+            background-color: gold;
+            animation-name: myanimation;
+            animation-duration: 4s;
+            animation-iteration-count: 4;
+            /* transform: rotate(10deg); */
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; This is total animation property values */
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <div class="container">
+
+    </div>
+</body>
+
+</html>
